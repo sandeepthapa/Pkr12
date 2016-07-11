@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.pkr1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Aboutpkr" />
+        <activity android:name=".Natural" />
+        <activity android:name=".Hill" />
+        <activity android:name=".Museum" />
+        <activity android:name=".Temple" />
+        <activity android:name=".Adventure" />
+        <activity android:name=".Events" />
+        <activity android:name=".Festival" />
+        <activity android:name=".Essentialinfo" />
+        <activity android:name=".Trekking" />
+        <activity android:name=".Weather" />
+        <activity android:name=".Destination" />
+        <activity android:name=".Getting" />
+        <activity android:name=".Birds" />
+        <activity android:name=".Appendices" />
+        <activity android:name=".Member" />
+        <activity android:name=".Phewa" />
+        <activity android:name=".Begnas" />
+        <activity android:name=".Seti" />
+        <activity android:name=".Bhim" />
+        <activity android:name=".Mahendra" />
+        <activity android:name=".Bat" />
+        <activity android:name=".Gupt">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Devi" />
+        <activity android:name=".Mountain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Kaskikot" />
+        <activity android:name=".Sarangkot" />
+        <activity android:name=".Australia" />
+        <activity android:name=".Thulakot" />
+        <activity android:name=".Mattikhana" />
+        <activity android:name=".Foksingkot" />
+        <activity android:name=".Kahun" />
+        <activity android:name=".Pandh" />
+        <activity android:name=".Anand" />
+        <activity android:name=".Intern" />
+        <activity android:name=".Region" />
+        <activity android:name=".Annapurna" />
+        <activity android:name=".Gurkha" />
+        <activity android:name=".Barahi" />
+        <activity android:name=".Kedar" />
+        <activity android:name=".Ram" />
+        <activity android:name=".Binda" />
+        <activity android:name=".World" />
+        <activity android:name=".Harihar" />
+        <activity android:name=".Bhadra" />
+        <activity android:name=".Tibetan" />
+        <activity android:name=".Paragliding" />
+        <activity android:name=".Ultralight" />
+        <activity android:name=".Mount" />
+        <activity android:name=".Raftinh" />
+        <activity android:name=".Cannyoing" />
+        <activity android:name=".Cycling" />
+        <activity android:name=".Golf" />
+        <activity android:name=".Zipline" />
+        <activity android:name=".Bunje" />
+        <activity android:name=".Swim" />
+        <activity android:name=".Rock" />
+        <activity android:name=".Pony" />
+        <activity android:name=".Honey" />
+        <activity android:name=".Hiking" />
+        <activity android:name=".Fish" />
+        <activity android:name=".Boat" />
+        <activity android:name=".Vulture" />
+        <activity android:name=".Ropani" />
+        <activity android:name=".Street" />
+        <activity android:name=".Trade" />
+        <activity android:name=".Tourism" />
+        <activity android:name=".Paragli" />
+        <activity android:name=".Phewafestival" />
+        <activity android:name=".Dashain" />
+        <activity android:name=".Tihar" />
+        <activity android:name=".Twohte" />
+        <activity android:name=".Teej" />
+        <activity android:name=".Gaijatra" />
+        <activity android:name=".Bhairab" />
+        <activity android:name=".Laphewa" />
+        <activity android:name=".Holi" />
+        <activity android:name=".Visa" />
+        <activity android:name=".Permits" />
+        <activity android:name=".Climate" />
+        <activity android:name=".Money" />
+        <activity android:name=".Communication" />
+        <activity android:name=".Postal" />
+        <activity android:name=".Electricity" />
+        <activity android:name=".Medical" />
+        <activity android:name=".Ayurveda" />
+        <activity android:name=".Accomodation" />
+        <activity android:name=".Shop" />
+        <activity android:name=".Laundry" />
+        <activity android:name=".Drinking" />
+        <activity android:name=".Food" />
+        <activity android:name=".Abc" />
+        <activity android:name=".Kafuche" />
+        <activity android:name=".Jomsom" />
+        <activity android:name=".Poonhill" />
+        <activity android:name=".Mardi" />
+        <activity android:name=".Mustang" />
+        <activity android:name=".Nar" />
+        <activity android:name=".Dhaulagiri" />
+        <activity android:name=".Manaslu" />
+        <activity android:name=".Dhorpatan" />
+        <activity android:name=".Panchase" />
+        <activity android:name=".Macchapuchre" />
+        <activity android:name=".Royaltrek" />
+        <activity android:name=".Millenium" />
+        <activity android:name=".Gorkha" />
+        <activity android:name=".Bandipur" />
+        <activity android:name=".Tansen" />
+        <activity android:name=".Chitwan" />
+        <activity android:name=".Lumbini" />
+        <activity android:name=".Dolpa" />
+        <activity android:name=".Glimpse" />
+        <activity android:name=".History" />
+        <activity android:name=".Why"></activity>
+    </application>
+
+</manifest>

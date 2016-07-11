@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.pkr1.Aboutpkr">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="364dp"
+                android:layout_height="200dp"
+                android:text="Natural Attraction"
+                android:id="@+id/btn1"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/pokhara"
+                android:textColor="#ffffff"
+                android:textColorHighlight="#521919"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="364dp"
+                android:layout_height="200dp"
+                android:text="Hill Station"
+                android:id="@+id/btn2"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Museums"
+                android:id="@+id/btn3"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Temple and Monuments"
+                android:id="@+id/btn4"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Adventures"
+                android:id="@+id/btn24"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Events and Activities"
+                android:id="@+id/btn5"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="National Festival"
+                android:id="@+id/btn6"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Essential and Useful Information"
+                android:id="@+id/btn7"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Major Trekking Destination"
+                android:id="@+id/btn8"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Destination beyond the Pokhara"
+                android:id="@+id/btn9"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Getting To/From Pokhara"
+                android:id="@+id/btn10"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Birds In/And Around"
+                android:id="@+id/btn11"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Weather in Pokhara"
+                android:id="@+id/btn12"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Getting To/from Pokhara"
+                android:id="@+id/btn13"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:text="Appendices"
+                android:id="@+id/btn14"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
