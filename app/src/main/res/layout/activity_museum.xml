@@ -29,7 +29,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/international"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingRight="30dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -39,7 +46,14 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/regional"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -49,7 +63,14 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/annapurna"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -59,7 +80,14 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/gurkha"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
 
     </LinearLayout>
     </ScrollView>

@@ -146,7 +146,7 @@ public class Trekking extends AppCompatActivity implements View.OnClickListener{
 
         }
         switch (v.getId()) {
-            case R.id.btn24:
+            case R.id.btn15:
                 Intent i = new Intent(Trekking.this, Millenium.class);
                 startActivity(i);
 

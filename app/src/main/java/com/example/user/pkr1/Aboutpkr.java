@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Aboutpkr extends AppCompatActivity implements View.OnClickListener{
-  Button f,g,h,i,j,k,l,m,n,o,p,q,r,s,t;
+    Button f,g,h,i,j,k,l,m,n,o,p,q,r,s,t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +39,7 @@ public class Aboutpkr extends AppCompatActivity implements View.OnClickListener{
         q.setOnClickListener(this);
         r = (Button)findViewById(R.id.btn13);
         r.setOnClickListener(this);
-        s = (Button)findViewById(R.id.btn24);
+        s = (Button)findViewById(R.id.btn14);
         s.setOnClickListener(this);
         t= (Button)findViewById(R.id.btn24);
         t.setOnClickListener(this);
@@ -158,4 +158,5 @@ public class Aboutpkr extends AppCompatActivity implements View.OnClickListener{
 
     }
 }
+
 

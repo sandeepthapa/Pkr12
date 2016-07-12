@@ -33,19 +33,29 @@
             android:background="@drawable/pokhara"
             android:textColor="#ffffff"
             android:textStyle="bold"
-            android:textColorHint="@color/abc_primary_text_disable_only_material_dark" />
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:text="Begnas taal"
+            android:text="Begnas Taal"
             android:id="@+id/btn2"
             android:layout_alignTop="@+id/scrollView"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+           android:background="@drawable/begnas"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Seti George"
             android:id="@+id/btn4"
@@ -53,9 +63,18 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/seti"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:gravity="bottom|right"
+
+
+
+
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Bhim dhunga"
             android:id="@+id/btn5"
@@ -63,9 +82,17 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:layout_marginTop="5dip"
+
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            />
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Mahendracave"
             android:id="@+id/btn6"
@@ -73,9 +100,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/mahendra"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Bats's Cave"
             android:id="@+id/btn7"
@@ -83,9 +117,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/bat"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Gupteshor cave"
             android:id="@+id/btn8"
@@ -93,9 +134,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/gupteshor"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Devi's Fall"
             android:id="@+id/btn9"
@@ -103,9 +151,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/devis"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Mountain"
             android:id="@+id/btn10"
@@ -113,7 +168,14 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/mountain"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
 
 
 
