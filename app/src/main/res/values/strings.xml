@@ -1,16 +1,17 @@
 <resources>
-    <string name="app_name">Pkr1</string>
+    <string name="app_name">Pokhara Tourism Council</string>
     <string name="action_settings">Settings</string>
     <string name="phewa">
-        \n\nPhewa Tal ‘lake’ is the biggest lake which is the central attraction in Pokhara. You can walk along its edge or hire a boat (sail boat or paddle boat) and move around the Lakeside. It takes a day to explore the distant shores, villages, aquatic and bird life and to watch local fisherman collecting the day’s catch. Don’t miss the stunning reflection of the snow-capped Annapurna in the calm water of Phewa early in the morning.
+        \n\nPhewa Tal ‘lake’ is the biggest lake which is the central attraction in Pokhara. You can walk along its edge or hire a boat (sail boat or paddle boat) and move around the Lakeside. It takes a day to explore the distant shores, villages, aquatic and bird life and to watch local fisherman collecting the day’s catch. Don’t miss the stunning reflection of the snow-capped Annapurna in the calm water of Phewa early in the morning.</string>
 
+        <string name="phewa1">
 \n\nThe surface area of the lake is about 4.43 sq. km., and the maximum and average depth of the lake is 12.3 m and 11.71 m. respectively. The lake has about 51.9 million cubic meters average volume of water. The best way to experience the Lakeside is to walk around the area, and is good to get moving on foot.
 
 \n\nThere’s a myth about the formation of Phewa lake. Prior to its formation, a river Harpan Khola ‘river’ used to flow by the side of a small temple of Goddess Barahi and a village on the eastern bank of the river. It is said that one day Goddess Barahi visited the village in the form of an old woman begging door to door. The woman told the people who gave her alms that a few days later a flood would sweep away the village and that place would turn into a huge lake. As she said it rained heavily after some days for over a week and the village was swept away by the flood. At the same time the part of hill where Fishtail Lodge stands at present slipped down and blocked the river then the lake formed.
     </string>
     <string name="begnas">
-        \n\nThese two picturesque lakes are perfectly serene and clean just 15 km. away towards east from Lakeside. A trip to these lakes makes a perfect day for overnight trip from proper Pokhara. The activities like swimming, boating and fishing are possible in Begnas lake. It is surrounded by hillocks and greeneries except towards the south which is the entrance to the lake. Its area is 3.73 sq. km. with round shape. There are many guest houses at the western shore of the lake from where one can have undisturbed views of the lake and the Himalayas. To get there, you should take the last left before the bridge at Begnas Chowk ‘junction’ which passes the fisheries.
-
+        \n\nThese two picturesque lakes are perfectly serene and clean just 15 km. away towards east from Lakeside. A trip to these lakes makes a perfect day for overnight trip from proper Pokhara. The activities like swimming, boating and fishing are possible in Begnas lake. It is surrounded by hillocks and greeneries except towards the south which is the entrance to the lake. Its area is 3.73 sq. km. with round shape. There are many guest houses at the western shore of the lake from where one can have undisturbed views of the lake and the Himalayas. To get there, you should take the last left before the bridge at Begnas Chowk ‘junction’ which passes the fisheries.</string>
+<string name="begnas1">
 \n\nFollow the road straight through Begnas Chowk ‘junction’, which climbs up the hill and reveals the isolated beauty of Rupa Tal ‘lake’ downward to the right hand side. After passing through a small village on top of the hill, where there is a luxury eco resort, take the next left down the road walk a few hundred meters to reach the Rupa lake. Rupa is extended from east to west with narrow width. Its total area is 1,15sq. km. and the shape looks like a serpent.
 
 \n\nIt is said that this lake looks like a lizard, changing its color from red, blue, green to other different colors. People say that there are many medicinal plants in the vicinity. One can have a very clear view of the mountain ranges from the hillock which separates the two lakes: Begnas and Rupa. While visiting Rupa one can also have an opportunity to observe the Fishery Research Center.
@@ -19,14 +20,17 @@
         \n\nThis is another 7 km. long fascinating sight in Pokhara which begins from K.I. Sing Bridge to Dhungesanghu with openings at Tulsighat and Ramghat. The snow fed Seti river flows along a series of gorges through the heart of Pokhara. Its murmer can be heard and foaming water can be viewed from a bridge near British Camp, Narayansthan Bridge, Mahendra Bridge and Prithivi Highway Bridge near the Pokhara stadium. The river flowing more than 47 meter below the bridges struggling its way through an incredibly narrow canyon gives a thrilling sensation. One can easily and/or clearly observe the turbulent flow of water while watching from the bridge. On the left hand side, while crossing the new bridge, towards Gurkha Memorial Museum, there is the old K.I. Sing Bridge made of cement and concrete. It is the first concrete bridge constructed in Pokhara.
     </string>
     <string name="bhim">
-        \n\nThere is a huge ingenious granite black rock like a big globe of about 8 m. height and circumference of 26 m. The stone lies in P.N. Campus complex in Pokhara. This round rock is named as Bhim Dhunga. This is the biggest rock in Pokhara valley. Bhima is one of the brothers of Pancha Pandava ‘five pandavas’ mentioned in Hindu mythology belonging about 1500 BC. According to the myth as narrated by the local people, the rock was thrown as a shot-put by Bhima, physically the mightiest brother of pandavas, from Bhimad. So it has its name as Bhim Dhunga. Dhunga in Nepali means ‘rock’ or ‘stone’. Local people have established a deity called Kali on the same spot. So it is also called Bhim Kali. Actually, the geographical legacy is that this huge rock has been carried down from the vicinity mountain during glacial period by moving glacier. Mr. Krishna Prasad Poudel, a geographer opines that the very Bhim Dhunga with round shape might have been rolled down by catastrophic outburst.
+        \n\nThere is a huge ingenious granite black rock like a big globe of about 8 m. height and circumference of 26 m. The stone lies in P.N. Campus complex in Pokhara. This round rock is named as Bhim Dhunga. This is the biggest rock in Pokhara valley. </string>
+    <string name="bhim1">
+    \n\nBhima is one of the brothers of Pancha Pandava ‘five pandavas’ mentioned in Hindu mythology belonging about 1500 BC. According to the myth as narrated by the local people, the rock was thrown as a shot-put by Bhima, physically the mightiest brother of pandavas, from Bhimad. So it has its name as Bhim Dhunga. Dhunga in Nepali means ‘rock’ or ‘stone’. Local people have established a deity called Kali on the same spot. So it is also called Bhim Kali. Actually, the geographical legacy is that this huge rock has been carried down from the vicinity mountain during glacial period by moving glacier. Mr. Krishna Prasad Poudel, a geographer opines that the very Bhim Dhunga with round shape might have been rolled down by catastrophic outburst.
     </string>
     <string name="mahendra">
         \n\nThis is a large limestone cave famous for its stalactites and stalagmites, located 9 km. to the north-east from Lakeside. This place was first explored by British expedition team in 1978 and then explored again by Daniel Gebuer in 1980. The length of the cave is 215 meter long and is stretched over 50 ropanies of land. The width of the entrance is 16 meters whereas in the center it is only 3.5 meter wide. In the beginning, this cave was called Bat Cave by the local people. Later on, it was named after the name of the then king Mahendra after his visit to the cave in 1960.
     </string>
     <string name="bat">
         \n\nWith its name as Chamere Gupha in Nepali, Bats’ cave is the popular name in English. This cave is located half kilometer west from Mahendra cave. It is still a popular and adventurous cave to get into. The natural environment of this cave has attracted thousands of bats as they feel no disturbance inside. People usually enter inside the cave carrying a torch light with a sense of adventure.
-    
+    </string>
+     <string name="bat1">
         \n\nThe visitors must be cautious, since the cave is not yet equipped with electricity and the path is also full of sharp stones. The water dripping from the ceiling makes the path wet and slippery. One can hear haunted sound inside the cave even from the entrance. The area of the Bats’ Cave is 10 m. depth and 6 m. height along with its 135 m. length. There is a small stream flowing deep under the rock. At the far end of the cave there is a small narrow hole. However, the cave at its center is amazingly spacious. There are large boulders cut out of solid rock inside the cave. Standing on the boulder you can look around the cave. In the middle of it you can see hundreds of bats hanging on the ceiling. Walking through the darkness in the light of a torch, and finding the exit of the cave is indeed a tough and adventurous task. If one is not courageous enough, better not to enter the cave.
     </string>
     <string name="gupt">
@@ -34,6 +38,10 @@
     </string>
     <string name="devi">
         \n\nDevi’s Fall is a fascinating waterfall located 2 km. southwest from Lakeside on the Siddhartha high way towards Syangja. The fall exists because the over flow or excess water of Phewa Lake is drained out through a hole and water runs underground to a distance of about one kilometer down which mingles with a rivulet called Phusre khola ‘rivulet’. The hole is about 29 feet in diameter and 50 feet deep. A big flow of water speedily flowing down into the mouth of the cave exposes lovely rainbows flickering unsteady into the water vapor. Then the big mass of water flows invisibly and vanishes below the hole which provides extremely exciting and pleasant feelings. The local name for the waterfall is Patale Chhango.
+</string>
+      <string name="devi1">
+
+
 
 \n\nThe name Patale Chhango in Nepali has become popular among the tourists and tourism operators as ‘Devi’s fall’, after a miserable death of a Swiss lady by slipping in the water fall.
 
@@ -49,12 +57,14 @@
     </string>
     <string name="sarang">
         \n\nThis, 1,592 m. high mountain, located on the northern side of Phewa Tal, is one of the most popular destinations for its breathtaking panoramic views of the Annapurna and Dhaulagiri ranges, the Pokhara valley and Phewa Tal. Enjoying the sunrise and sunset from this former Kaski fort is an experience not to be missed when visiting Pokhara. It is also a thrill to watch tandem and solo paraglide taking off daily just below the top. Walking up the stone steps from the north end of Lakeside (Sedi) takes 2 -3 hours, while taxis can take you up just below the summit. A day trip on a motorbike is a fun way to explore the mountain, its local villages all the way along the ridge top to Naudanda or down to Pame at the end of the Phewa Lake.
-
+</string>
+     <string name="sarang2">
 \n\nThe word sarang means a traditional dance related to fighting and war. In such dance, men dance with sword in their hand by beating a drum. In Sarangkot, military guards used to live during the period of Shah kings who had their palace in Kaskikot. The militaries in Sarangkot used to visit Kaskikot every day for sarang dance, and returned to Sarangkot every morning. Thus, the place, later on, is known as Sarangkot. It’s very windy place which provides cool and exciting experience.
     </string>
     <string name="aus">
         \n\nAustrian Camp which is previously known as Thulakharka, offers striking views over the valleys and stunning views of the Annapurna Mountain range including the views of sunrise and sunset. It is an easy trek in the foothill of Annapurna near Pokhara This trip can be done all year round and is also very suitable for people without any hiking experience and people of all ages. Thulakharka is supposed one of the best place in the world to observe and counting the migratory hunting birds which happens from the first week of September till mid December.
-
+</string>
+    <string name="aus1">
 \n\nDuration : 2-3 days
 \n\nDifficulty : Easy
 \n\nMax Elevation : 2100m
@@ -366,12 +376,12 @@ throughout Pokhara, which sell over-thecounter and prescribed medicine and suppl
     </string>
     
  <string name="Nar">
-     /n/nNar Phu is a combination of two remote villages. This trek traverses narrow canyons, lovely forests, ridiculous rock formations, yaks, monasteries and unique Himalayan cultures. This region was first explored by Tillman in the 1950s and Closed to trekkers until late 2002. The remoteness of the Nar Phu valley and its proximity to Tibet made that the people and their culture have remained more akin to Tibet than Nepal. The snow leopards and blue sheep are often seen in the area. The Phu is the most beautiful medieval village where you can learn the real life styles of Bhote communities enjoying and having a joyous typical lifestyle in the valley.
+     \n\nNar Phu is a combination of two remote villages. This trek traverses narrow canyons, lovely forests, ridiculous rock formations, yaks, monasteries and unique Himalayan cultures. This region was first explored by Tillman in the 1950s and Closed to trekkers until late 2002. The remoteness of the Nar Phu valley and its proximity to Tibet made that the people and their culture have remained more akin to Tibet than Nepal. The snow leopards and blue sheep are often seen in the area. The Phu is the most beautiful medieval village where you can learn the real life styles of Bhote communities enjoying and having a joyous typical lifestyle in the valley.
 
-/n/nDuration: 15 -21 days
-/n/nDifficulty: challenging
-/n/nMax. Elevation: …..
-/n/nStart: Koto via Besishar
+\n\nDuration: 15 -21 days
+\n\nDifficulty: challenging
+\n\nMax. Elevation: …..
+\n\nStart: Koto via Besishar
  </string>
 
     <string name="dhaulagiri">
@@ -936,5 +946,23 @@ n\\nStart: Milanchowk
 \n\n 8.The crowded bars and restaurants are the places to seek companionship, where tall stories and real life experiences are shared with perfect strangers. The friendly Nepalese make a tourist feel at home to the point where many stay on for extended periods and come each year to seek those friends he’s made and find peace of mind.
 \n\n 9.City of Lakes: Many freshwater lakes are located in the south and east of the Pokhara Valley. The Annapurna range on the North is only about 28 km. (linear distance) away from the Phewa Lake, and the lake is famous for the reflection of mount Machhapuchhre and other mountain peaks of the Annapurna and Dhaulagiri ranges on its surface.
 </string>
+    <string name="president">
+        \n\nIt is our pleasure to come with the Pokhara Tourism Council official website. We are hopeful that it will support the promotion of tourism in the region and the country. Known as the land of paradise, Pokhara is really famous for its natural beauty, cultural varieties and for attractive events and activities .Previously the country passed through a turbulent situation disturbing almost all the nerves of our nation for some years. Before the time of recovery period, the country witnessed the problem of earth quake and now again with border blockade, which ultimately hampered all the economic activities including the tourism of Nepal. Despite these problems and turbulences, the country succeeded to achieve the new constitution from the constituent assembly. It will certainly help to create a peaceful socio situation and dynamism for the economic activity in the country and hope that the tourism will revive very soon. Of course, there is always light after the dark, i.e. “Rays of Hope.” No doubt, Pokhara is equipped with all amenities for adventure and holiday lovers. But still it is lacking with some important infrastructures like, Pokhara International Airport, Pokhara Bus Park,Walking trail around the Fewa lake, Expansion of high way road to Kathmandu, Sunauli and Corrala border( China ) and most importantly National Carrier should be strengthen which certainly can support to boost the tourism in Pokhara and the country. On behalf of Pokhara Tourism Council, I would like to express my thanks to International Labour Organization (ILO) and ILO Japan for their support for LED Project (Local Economic Development). We expect that this website will definitely help to enhance the tourism by providing reliable and constructive information about Pokhara and the region and also promote tourism awareness among the people and its professionals.
+    Thank you
+
+   \n\nSom Thapa
+   \n\nPresident
+    \n\nPokhara Tourism Council
+</string>
+    <string name="pep">
+        \n\nPokhara Tourism Council (PTC) is a nonprofit making organization representing the tourism industry of Pokhara in Western Nepal. It was established in July 1995 as a Pokhara Toursim Promotion Committee and in 2002, officially established in the name of Pokhara Tourism Council with the major objective of playing role of coordinator to promote and develop tourism industry in Pokhara in an organized way.
+
+\n\nIt Also plays a vital role to coordinate with all the stake holders for the development of tourism related infrastructures in Pokhara, providing suitable and reliable services to the tourists, promoting Pokhara both nationally and internationally, safeguarding the professional rights and interests of tourism agencies and making best efforts to keep the natural environment of Pokhara as neat, clean and healthy.
+
+\n\nAs an umbrella organization, it comprises of eleven major tourism and non tourism organizations as its members. These organizations include Pokhara Chamber of Commerce and Industry (PCCI), Paschimanchal Hotel Association Pokhara (PHAP), Trekking Agencies’ Association of Nepal (TAAN) Western Regional Association, Pokhara, Nepal Association of Tour and Travel Agents (NATTA) Regional Association Pokhara, Restaurant and Bar Association of Nepal (REBAN)- Pokhara Chapter, Taxi Entrepreneurs Association Pokhara, Pokhara Bus Entrepreneurs Association, Trekking Equipment Shops Association (TESA) Pokhara, Embroidery and Garment Association (EGA) Pokhara, Nepal Air Sports Association (NAA) and  Ganesh Laxmi Charitable (GLC) Trust Pokhara.
+
+\n\nDevelopment of eco tourism, responsible tourism and tourism related human resources through various capacity building activities (e.g. trainings, exposure visits, seminars, etc.) are the key thrusts of PTC. On behalf of all the member associations, PTC co-ordinates with Nepal Government, foreign agencies, tourism associations, local governmental bodies and other stakeholders. It also acts as one of the pressure groups to provide visionary suggestions and valuable ideas to the government to assist in formulating sound plans and policies for the sustainable and eco- friendly development of tourism in Pokhara.
+    </string>
+
 
 </resources>

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Mountain">
+    tools:context="com.pokharatourism.user.pkr1.Mountain">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -24,7 +24,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text = "Mountain"/>
+                android:text = "Mountain"
+                android:textColor="#050505"
+                android:textStyle="bold"
+
+                android:layout_weight="0.80"
+                android:height="48dp"/>
 
 
             <Button
@@ -47,7 +52,10 @@
                 android:text="@string/mount"
                 android:id="@+id/textView7"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textSize="15sp"
+                android:textColor="#050505"
+                android:textStyle="bold"/>
         </LinearLayout>
     </ScrollView>
 

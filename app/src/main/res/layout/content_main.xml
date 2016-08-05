@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.user.pkr1.MainActivity"
+    tools:context="com.pokharatourism.user.pkr1.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <ScrollView
@@ -25,7 +25,7 @@
             android:layout_height="fill_parent"
             android:orientation="vertical">
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="About Pokhara"
                 android:id="@+id/button"
@@ -33,9 +33,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/pkr"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="News and Events"
                 android:id="@+id/button1"
@@ -43,9 +50,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/australiancamp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Members"
                 android:id="@+id/button2"
@@ -53,9 +67,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/mountain"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Links"
                 android:id="@+id/button3"
@@ -63,9 +84,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/umbini"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Contact"
                 android:id="@+id/button4"
@@ -73,9 +101,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/weather"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="About Us"
                 android:id="@+id/button5"
@@ -83,7 +118,14 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/cont"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
 
 
 

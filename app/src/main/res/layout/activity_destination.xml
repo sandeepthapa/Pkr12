@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Destination">
+    tools:context="com.pokharatourism.user.pkr1.Destination">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -21,7 +21,7 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
     <Button
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Gorkha and Manakamana"
         android:id="@+id/btn1"
@@ -29,9 +29,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/gorkha"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingLeft="10dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"/>
     <Button
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Bandipur"
         android:id="@+id/btn2"
@@ -39,9 +46,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/bandi"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingLeft="10dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"/>
     <Button
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Tansen"
         android:id="@+id/btn3"
@@ -49,9 +63,17 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/ansen"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingLeft="10dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"
+        />
     <Button
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Chitwan National Park"
         android:id="@+id/btn4"
@@ -59,9 +81,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/chitwan"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingLeft="10dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"/>
     <Button
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Lumbini"
         android:id="@+id/btn5"
@@ -69,9 +98,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/umbini"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingLeft="10dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"/>
     <Button
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Dolpa"
         android:id="@+id/btn6"
@@ -79,7 +115,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/dolpa"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingLeft="10dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"/>
     </LinearLayout>
     </ScrollView>
 

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Events">
+    tools:context="com.pokharatourism.user.pkr1.Events">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -115,7 +115,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView"
-
+            android:background="@drawable/para"
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:textColorHint="@color/abc_primary_text_disable_only_material_dark"

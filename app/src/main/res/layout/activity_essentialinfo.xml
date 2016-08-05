@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Essentialinfo">
+    tools:context="com.pokharatourism.user.pkr1.Essentialinfo">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -21,8 +21,8 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
     <Button
-        android:layout_width="500dp"
-        android:layout_height="200dp"
+        android:layout_width="363dp"
+        android:layout_height="61dp"
         android:text="Visa"
         android:id="@+id/btn1"
         android:layout_alignTop="@+id/scrollView"
@@ -31,8 +31,8 @@
         android:layout_alignRight="@+id/scrollView"
         android:layout_alignEnd="@+id/scrollView" />
     <Button
-        android:layout_width="500dp"
-        android:layout_height="200dp"
+        android:layout_width="363dp"
+        android:layout_height="61dp"
         android:text="Permits"
         android:id="@+id/btn2"
         android:layout_alignTop="@+id/scrollView"
@@ -41,8 +41,8 @@
         android:layout_alignRight="@+id/scrollView"
         android:layout_alignEnd="@+id/scrollView" />
     <Button
-        android:layout_width="500dp"
-        android:layout_height="200dp"
+        android:layout_width="363dp"
+        android:layout_height="61dp"
         android:text="Climate of Pokhara"
         android:id="@+id/btn3"
         android:layout_alignTop="@+id/scrollView"
@@ -51,8 +51,8 @@
         android:layout_alignRight="@+id/scrollView"
         android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Money"
             android:id="@+id/btn4"
             android:layout_alignTop="@+id/scrollView"
@@ -61,8 +61,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Communication"
             android:id="@+id/btn5"
             android:layout_alignTop="@+id/scrollView"
@@ -71,8 +71,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Postal System"
             android:id="@+id/btn6"
             android:layout_alignTop="@+id/scrollView"
@@ -81,8 +81,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Electricity"
             android:id="@+id/btn7"
             android:layout_alignTop="@+id/scrollView"
@@ -91,8 +91,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Medical/Dental"
             android:id="@+id/btn8"
             android:layout_alignTop="@+id/scrollView"
@@ -101,8 +101,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Ayurveda"
             android:id="@+id/btn9"
             android:layout_alignTop="@+id/scrollView"
@@ -111,8 +111,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Accomodation"
             android:id="@+id/btn10"
             android:layout_alignTop="@+id/scrollView"
@@ -121,8 +121,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Shopping and sevices"
             android:id="@+id/btn11"
             android:layout_alignTop="@+id/scrollView"
@@ -131,8 +131,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Laundry"
             android:id="@+id/btn12"
             android:layout_alignTop="@+id/scrollView"
@@ -141,8 +141,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Drinking Water"
             android:id="@+id/btn13"
             android:layout_alignTop="@+id/scrollView"
@@ -151,8 +151,8 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
             android:text="Food and Drinks"
             android:id="@+id/btn14"
             android:layout_alignTop="@+id/scrollView"

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Trekking">
+    tools:context="com.pokharatourism.user.pkr1.Trekking">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -21,7 +21,7 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Annapurna Base Camp"
             android:id="@+id/btn1"
@@ -29,9 +29,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/abc2"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Annapurna Circuit"
             android:id="@+id/btn2"
@@ -39,9 +46,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/ac"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Kafuche icelake"
             android:id="@+id/btn3"
@@ -49,9 +63,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/kafuche"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Jomsom Muktinath"
             android:id="@+id/btn4"
@@ -59,9 +80,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/jomsom"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Poon Hill"
             android:id="@+id/btn5"
@@ -69,9 +97,11 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+
+            />
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Mardi Himal Base Camp"
             android:id="@+id/btn6"
@@ -81,7 +111,7 @@
             android:layout_alignRight="@+id/scrollView"
             android:layout_alignEnd="@+id/scrollView" />
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Upper Mustang"
             android:id="@+id/btn7"
@@ -89,9 +119,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+           />
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Nar Phu Valley Trek"
             android:id="@+id/btn8"
@@ -99,9 +130,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/narphu"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Dhaulagiri Circuit"
             android:id="@+id/btn9"
@@ -109,9 +147,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+           />
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Manaslu Circiut"
             android:id="@+id/btn10"
@@ -119,9 +158,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/mc"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Dhorpatan"
             android:id="@+id/btn11"
@@ -129,9 +175,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            />
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Panchase Trek"
             android:id="@+id/btn12"
@@ -139,9 +186,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            />
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Machhapuchre Model Trek"
             android:id="@+id/btn13"
@@ -149,9 +197,11 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/machatrek"
+           />
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Royal Trek"
             android:id="@+id/btn14"
@@ -159,9 +209,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/royal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Millenium Trek"
             android:id="@+id/btn15"
@@ -169,7 +226,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+           />
 
 
 

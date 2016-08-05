@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Festival">
+    tools:context="com.pokharatourism.user.pkr1.Festival">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -21,7 +21,7 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
     <Button
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Dashain"
         android:id="@+id/btn1"
@@ -29,9 +29,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/dash"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingLeft="10dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"/>
     <Button
-        android:layout_width="500dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Tihar"
         android:id="@+id/btn2"
@@ -39,9 +46,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView" />
+        android:layout_alignEnd="@+id/scrollView"
+        android:background="@drawable/tihara"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+        android:paddingLeft="10dip"
+        android:gravity="right|bottom"
+        android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Twohte"
             android:id="@+id/btn3"
@@ -49,9 +63,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/twothe"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Teej"
             android:id="@+id/btn4"
@@ -59,9 +80,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/teej"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Gaijatra"
             android:id="@+id/btn5"
@@ -69,9 +97,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/gaijtra"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Holi"
             android:id="@+id/btn6"
@@ -79,9 +114,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/holi"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Bhairav Dance"
             android:id="@+id/btn7"
@@ -89,9 +131,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+            android:background="@drawable/bhairav"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
         <Button
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="La Phewa"
             android:id="@+id/btn8"
@@ -99,7 +148,14 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_alignEnd="@+id/scrollView" />
+            android:layout_alignEnd="@+id/scrollView"
+
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
     </LinearLayout>
     </ScrollView>
 

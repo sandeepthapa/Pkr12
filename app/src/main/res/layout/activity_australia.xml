@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Australia">
+    tools:context="com.pokharatourism.user.pkr1.Australia">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -25,7 +25,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text = "Australian Base Camp"/>
+                android:text = "Australian Base Camp"
+
+                android:layout_weight="0.80"
+                android:height="48dp"
+                android:textStyle="bold"
+                android:textColor="#050505"/>
 
 
             <Button
@@ -37,18 +42,121 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
                 android:layout_alignEnd="@+id/scrollView"
-                android:background="@drawable/thulakot"
+                android:background="@drawable/australiancamp"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:textColorHint="@color/abc_primary_text_disable_only_material_dark" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#ffffff">
+                <View
+                    android:id="@+id/SplitLine_hor1"
+                    android:layout_width="match_parent"
+                    android:layout_height= "2dp"
+                    android:background="@color/gray" />
+
+
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btn2"
+                    android:background="#ffffff"
+                    android:height="80dp"
+                    android:textColor="#ffffff"
+                    android:backgroundTint="@android:color/transparent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true" />
+                <View
+                    android:id="@+id/SplitLine_hor2"
+                    android:layout_width="match_parent"
+                    android:layout_height= "2dp"
+                    android:background="@color/gray" />
+
+
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/ic_place_white_24dp"
+                    android:backgroundTint="#FF4081"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginStart="22dp"
+
+                    android:paddingLeft="20dp"
+
+                    android:paddingBottom="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="24sp"
+                    android:paddingBottom="20dp"
+                    android:gravity="center"
+                    android:text="Location"
+                    android:textColor="#000000"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:textColor="#050505"
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:text="Altitude:2000m "
+                android:id="@+id/button10"
+                android:background="@android:color/transparent"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/kaski"
+                android:text="@string/aus"
                 android:id="@+id/textView7"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="#050505"
+                android:layout_weight="0.80"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/aus1"
+                android:id="@+id/textView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="0.40"
+                android:textStyle="italic"
+                android:textSize="@dimen/abc_text_size_small_material" />
+
+
+
+
         </LinearLayout>
     </ScrollView>
 

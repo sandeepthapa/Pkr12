@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Dhorpatan">
+    tools:context="com.pokharatourism.user.pkr1.Dhorpatan">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -37,10 +37,27 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
                 android:layout_alignEnd="@+id/scrollView"
-                android:background="@drawable/pokhara"
+                android:background="@drawable/dhorpatan"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:textColorHint="@color/abc_primary_text_disable_only_material_dark" />
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn2"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView"
+                android:text="Location"
+                android:textColor="#050505"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:background="@android:color/transparent"
+
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

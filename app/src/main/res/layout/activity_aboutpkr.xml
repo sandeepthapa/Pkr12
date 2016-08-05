@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Aboutpkr">
+    tools:context="com.pokharatourism.user.pkr1.Aboutpkr">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -21,31 +21,27 @@
             android:layout_height="fill_parent"
             android:orientation="vertical">
             <Button
-                android:layout_width="364dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:text="Natural Attraction"
-                android:id="@+id/btn1"
+                android:text="Natural Activities"
+                android:id="@+id/btn17"
                 android:layout_alignTop="@+id/scrollView"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
                 android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/pokhara"
 
-
-
-                android:textColorHighlight="#521919"
-                android:paddingRight="43dip"
-
-                android:background="@drawable/begnas"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
-
+                android:paddingRight="40dip"
                 android:gravity="right|bottom"
                 android:layout_marginTop="5dip"
                 />
+
             <Button
-                android:layout_width="364dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Hill Station"
                 android:id="@+id/btn2"
@@ -132,7 +128,7 @@
                 android:gravity="right|bottom"
                 android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="National Festival"
                 android:id="@+id/btn6"
@@ -140,9 +136,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/dash"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Essential and Useful Information"
                 android:id="@+id/btn7"
@@ -150,9 +153,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/passport"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Major Trekking Destination"
                 android:id="@+id/btn8"
@@ -160,9 +170,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/mc"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Destination beyond the Pokhara"
                 android:id="@+id/btn9"
@@ -170,9 +187,16 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/ansen"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Getting To/From Pokhara"
                 android:id="@+id/btn10"
@@ -180,9 +204,17 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/download"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"
+                />
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Birds In/And Around"
                 android:id="@+id/btn11"
@@ -190,9 +222,17 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/bird"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"
+                />
             <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Weather in Pokhara"
                 android:id="@+id/btn12"
@@ -200,19 +240,17 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/weather"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+                android:paddingLeft="10dip"
+                android:gravity="right|bottom"
+                android:layout_marginTop="5dip"/>
+
             <Button
-                android:layout_width="500dp"
-                android:layout_height="200dp"
-                android:text="Getting To/from Pokhara"
-                android:id="@+id/btn13"
-                android:layout_alignTop="@+id/scrollView"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
-            <Button
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:text="Appendices"
                 android:id="@+id/btn14"
@@ -220,7 +258,14 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignRight="@+id/scrollView"
-                android:layout_alignEnd="@+id/scrollView" />
+                android:layout_alignEnd="@+id/scrollView"
+                android:background="@drawable/glimpse"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textColorHint="@color/abc_primary_text_disable_only_material_dark"
+            android:paddingLeft="10dip"
+            android:gravity="right|bottom"
+            android:layout_marginTop="5dip"/>
 
 
         </LinearLayout>

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.pkr1.Mattikhana">
+    tools:context="com.pokharatourism.user.pkr1.Mattikhana">
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -25,7 +25,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text = "Mattikhana"/>
+                android:text = "Mattikhana"
+
+                android:layout_weight="0.80"
+                android:height="48dp"
+                android:textStyle="bold"
+                android:textColor="#050505"/>
 
 
             <Button
@@ -41,14 +46,21 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:textColorHint="@color/abc_primary_text_disable_only_material_dark" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/matti"
+                android:text="@string/phewa"
                 android:id="@+id/textView7"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:textColor="#050505"
+                android:layout_weight="0.80"
+                android:textSize="15sp"/>
+
+
         </LinearLayout>
     </ScrollView>
 
